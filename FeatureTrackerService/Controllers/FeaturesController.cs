@@ -42,7 +42,8 @@ namespace FeatureTrackerService.Controllers
                     FeatName = f.FeatName,
                     isComplete = f.isComplete,
                     Description = f.Description,
-                    AuthorName = f.Author.Name
+                    AuthorName = f.Author.Name,
+                    Priority = f.Priority
                 }).SingleOrDefaultAsync(f => f.Id == id);
 
 

@@ -32,7 +32,8 @@ namespace FeatureTrackerService.Migrations
                     AuthorId = 1,
                     FeatName = "SVI Endpoint Viewer",
                     Description = "Displays all current OLB test envs and the corresponding SVI endpoint.  Collected in real-time",
-                    isComplete = true
+                    isComplete = true,
+                    Priority = Priority.High
                 }
                 );
 
